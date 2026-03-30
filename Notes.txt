@@ -1,0 +1,165 @@
+1 categorical variable - Bar chart( compares freq of different categories)
+2 categorical variable - side by side Bar chart( compares freq of different categories)
+
+1 numerical var - histogram
+.histplot
+1 categorical and 1 numerical - side by side histogram
+.countplot
+
+
+Correlation: shows how strongly a pair of variables are related to ech other 
+1. Only numerical variables
+range -1 to 1
+0 mean no correclation 
+x should always be categorical
+
+2 numerical is a scatterplot
+x should be independant var
+y should be the outcome var
+
+
+CRISP_DM
+1. Business understanding
+2. Data understanding (EDA)
+    a. Transformations 
+        1. Data type conversions (one of the first things you do)
+        2. Missing values 
+    b. Visualizations
+3. Data Preperation
+4. Modeling (Analysis)
+5. Evaluations
+6. Deployment
+
+Missing values:
+numerical var- replace with mean or median, it is less impact on the analysis
+if categorical var- replace with most freq value
+
+
+Cluster analysis
+Unsupervised Learning
+1. Identify patterns and relationships between observations
+    NO outcome var to predict
+
+2. Supervised Learning  
+    Outcome var Supervised the process of learning how to predict future outcomes
+    Overlaps with predictive nalysis
+    Eval can use quantitative assessment
+
+
+Algorithms
+1. Distance between data points
+    Heirarchical data, dendrograms 
+    euclidean Distance
+    Slow for big data 
+2. Distance between centroid
+    CLusterers constructed using distance to a center point, the Cluster
+        k means Cluster
+        must define how many clusters 
+3. DEnsity of data 
+    CLuster is constructed with density of regions
+        Mean shifts density based spatial clustering of aplications with noise
+4. Distribution models
+    constructed with statistical distributions 
+        Expectation maximisation
+        good for correlations 
+
+
+## Python structure
+1. IMport lib
+2, import data
+3. data Preperation
+4. Algorithms
+
+
+Cluster analysis steps 
+1. EDA 
+    a. Data type conversions 
+    b. Missing values 
+2. Data Prep
+    a. Scaling of numerical variables
+    b. Selection of var using correlation matrix
+3. Analysis: Choose Algorithms
+    a. Distance (hieratchical)
+    b. centroid (k-means)
+    c. density(DBSCAN)
+    d. Distrobution models
+4. Eval
+    a. using dendrogram from hierarchical clustering
+    using Visualizations from the elbow method and or the silhouette method
+Euclideam dtstance (look this up)
+    ward method(merge 2 clusters to )
+
+
+
+2/26/26
+text mining
+1. EDA  
+    Convert missing values into empty space
+    convert data types
+2. Pre-processing (Data prep)
+    Transformations
+    generate a list of most relavant terms
+        Remove common words(a, and , an, the)
+        Turn lowercase
+        remove symbols and punctuation
+        remove different languages, urls, special characters (maybe keep #)
+    Tokenization and Stemming 
+        Divide text into smaller components(tokens)
+            split by whitespace, fullstop, punctionation
+        Convert a word to its meaningful/dictionary form(lemma)
+            "stacked"- "stacking" --> "stack" , "caring" = "care"
+        Stemming can be used too, but is agressibev
+            "stacked" = "stack", "caring" = "car"
+    Remove StopWords
+    Lemmatization
+
+3. Analysis
+    Data Visualizations
+        Wordcloud, shows what words are the most prevalent
+    Sentiment analysis 
+        Textblob
+            Lexicon based gives a sentiment score based on the word
+            good for new books, long reviews, bad at slang and negation
+        Vader
+            optimized for social media, short text, and informal languages
+            Poor for long texts like books,
+
+
+3/19/2026
+Topic Modelling
+there are several algo to extract topics from text.
+the 2 most popular are:
+    LDA: Latent Dirichlet Allocation
+    * assumes each doc is a mix of topics agressibev
+    * Best for formal text
+    BERTopic: transformer based model 
+    * Best for informal text
+
+Topic Modeling1. EDA  
+    Convert missing values into empty space
+    convert data types
+2. Pre-processing (Data prep)
+    Transformations
+    generate a list of most relavant terms
+        Remove common words(a, and , an, the)
+        Turn lowercase
+        remove symbols and punctuation
+        remove different languages, urls, special characters (maybe keep #)
+    Tokenization and Stemming 
+        Divide text into smaller components(tokens)
+            split by whitespace, fullstop, punctionation
+        Convert a word to its meaningful/dictionary form(lemma)
+            "stacked"- "stacking" --> "stack" , "caring" = "care"
+        Stemming can be used too, but is agressibev
+            "stacked" = "stack", "caring" = "car"
+    Remove StopWords
+    Lemmatization
+
+3. Analysis
+    LDA: probablility based model, best for formal text
+    BERTopic (transformer based), best for informal text
+4. Eval
+    LDA tuning to decide the optimal number of topics using an evaluation metrisc( like coherence score)
+
+5. x
+

@@ -1,0 +1,4 @@
+,id,name,city,state,region,highest_degree,control,gender,admission_rate,sat_avg,undergrads,tuition,faculty_salary_avg,loan_default_rate,median_debt,lon,lat
+48,110404,California Institute of Technology,Pasadena,CA,West,Graduate,Private,CoEd,0.0883,1545,983,43362,18138,0.025,11812.5,-118.1445155,34.1477849
+272,144050,University of Chicago,Chicago,IL,Midwest,Graduate,Private,CoEd,0.0876,1505,5729,49380,17082,0.014,12500.0,-87.6297982,41.8781136
+421,166027,Harvard University,Cambridge,MA,Northeast,Graduate,Private,CoEd,0.0596,1501,7236,43938,19115,0.009,6500.0,-71.10973349999999,42.3736158
