@@ -55,7 +55,7 @@ Algorithms
     CLusterers constructed using distance to a center point, the Cluster
         k means Cluster
         must define how many clusters 
-3. DEnsity of data 
+3. Density of data 
     CLuster is constructed with density of regions
         Mean shifts density based spatial clustering of aplications with noise
 4. Distribution models
@@ -163,3 +163,23 @@ Topic Modeling1. EDA
 
 5. x
 
+3/31/26
+Predictive Modeling
+classification of a categorical outcome (yes or no )
+Determine if a loadn application is accepted or not 
+Determine if a book is fiction or not
+Determine if a customer will make a purchase or not
+
+Estimation of a continuous outcome
+
+Kaggle 
+
+Training
+* Features (IV) --> Outcomes(DV)
+Testing
+* Produce predictions
+
+
+outcome Vars MUST be categorical 
+
+You must encode cat var into numbers to make it easier, such as [male, female], to [1, 0]

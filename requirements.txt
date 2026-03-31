@@ -8,3 +8,6 @@ nltk
 wordcloud
 TextBlob
 vaderSentiment
+scikit-learn
+gensim 
+pyLDAvis
