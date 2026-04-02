@@ -196,6 +196,14 @@ Predictive analysis
 1. EDA: (all eda steps must be fone for training and testing datasets)
     Address missing values 
     Convert Datatype
-    Visualizations to figure out what features to include in the models 
+    Visualizations to figure out what features to include in the models (no need to do all)
+        Correlation map of numerical variables  
+        Heatmap of numerical variables
+        Boxplot between outcome and numerical variables
 2. Data Prep
-3. 
+    Data splitting into training, validation, and testing dataset
+3. Analysis: Building different models
+    Decision Tree
+    Random Forest
+    Neural Network
+    Ensemble
