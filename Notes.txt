@@ -166,9 +166,9 @@ Topic Modeling1. EDA
 3/31/26
 Predictive Modeling
 classification of a categorical outcome (yes or no )
-Determine if a loadn application is accepted or not 
-Determine if a book is fiction or not
-Determine if a customer will make a purchase or not
+    Determine if a loadn application is accepted or not 
+    Determine if a book is fiction or not
+    Determine if a customer will make a purchase or not
 
 Estimation of a continuous outcome
 
@@ -183,3 +183,19 @@ Testing
 outcome Vars MUST be categorical 
 
 You must encode cat var into numbers to make it easier, such as [male, female], to [1, 0]
+
+
+machine learning 
+    Non Supervised
+    Supervised--> has outcome variable
+        Predictive Analysis
+            Categorical outcome: Classification
+            Numerical outcome: Estimation
+
+Predictive analysis
+1. EDA: (all eda steps must be fone for training and testing datasets)
+    Address missing values 
+    Convert Datatype
+    Visualizations to figure out what features to include in the models 
+2. Data Prep
+3. 
