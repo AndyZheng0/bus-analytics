@@ -203,7 +203,17 @@ Predictive analysis
 2. Data Prep
     Data splitting into training, validation, and testing dataset
 3. Analysis: Building different models
-    Decision Tree
+    Decision Tree (classification tree)
+        Highly sensitive with data
+        cant test interation between variables
+        [Kaggle Model]                                        [Kaggle Result]
+        1) Full model with decision tree                        rank 11700
+        2) Decision tree with 4 var (sex, age, fare, pclass)    rank 11270
+        3) Random Forest with 4 var                             rank 9741
+        4) Neural Network                                       Man it was worse 
+
     Random Forest
+        Better than decision tree
+
     Neural Network
     Ensemble
