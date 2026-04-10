@@ -75,7 +75,7 @@ Cluster analysis steps
 1. EDA 
     a. Data type conversions 
     b. Missing values 
-2. Data Prep
+2. Data Prep 
     a. Scaling of numerical variables
     b. Selection of var using correlation matrix
 3. Analysis: Choose Algorithms
@@ -201,7 +201,9 @@ Predictive analysis
         Heatmap of numerical variables
         Boxplot between outcome and numerical variables
 2. Data Prep
-    Data splitting into training, validation, and testing dataset
+    Data Partitioning 
+        Split dataset into:
+        training, validation, and testing
 3. Analysis: Building different models
     Decision Tree (classification tree)
         Highly sensitive with data
@@ -217,3 +219,5 @@ Predictive analysis
 
     Neural Network
     Ensemble
+4. Evaluation
+    
