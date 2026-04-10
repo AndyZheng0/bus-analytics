@@ -220,4 +220,5 @@ Predictive analysis
     Neural Network
     Ensemble
 4. Evaluation
-    
+    Confusion matrix 
+        Pick true positive or Accuracy 
