@@ -213,6 +213,7 @@ Predictive analysis
         2) Decision tree with 4 var (sex, age, fare, pclass)    rank 11270
         3) Random Forest with 4 var                             rank 9741
         4) Neural Network                                       Man it was worse 
+        5) Gradient Boosted Decision Tree n_estimators = 100    rank 8093
 
     Random Forest
         Better than decision tree
