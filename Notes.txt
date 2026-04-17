@@ -204,6 +204,7 @@ Predictive analysis
     Data Partitioning 
         Split dataset into:
         training, validation, and testing
+    kfold cross validation
 3. Analysis: Building different models
     Decision Tree (classification tree)
         Highly sensitive with data
@@ -223,3 +224,12 @@ Predictive analysis
 4. Evaluation
     Confusion matrix 
         Pick true positive or Accuracy 
+
+    Feature engineering
+
+
+Cost matrix
+double correct, no harm no foul
+is does it cost more to predict someone is will stay incorrectly or leave incorrectly?
+470
+305
