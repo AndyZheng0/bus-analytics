@@ -9,5 +9,6 @@ wordcloud
 TextBlob
 vaderSentiment
 scikit-learn
+xgboost
 #gensim 
 #pyLDAvis
